@@ -521,9 +521,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-family:sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Credits Box v0.1 by TJ
---------------------------------------------------------------*/
+
+
+
+
 .crop {
   width: 200px;
   height: 150px;
@@ -534,4 +535,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 400px;
   height: 300px;
   margin: -75px 0 0 -100px;
+}
+
+.painting {
+  padding-left: 12rem;
+  padding-right: 12rem;
+
 }
