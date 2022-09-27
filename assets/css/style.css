@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 0 0 4rem 0;
 }
 .footer a {
-  color: #000;
+  color: inherit;
 }
 
 .social a {
@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   text-align: center;
 }
 .mail:link{
-  color:black;
+  color: inherit;
 }
 .mail:hover {
   color:blueviolet;
@@ -538,7 +538,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .painting {
-  padding-left: 12rem;
-  padding-right: 12rem;
+  padding-left: min(15rem, 12vw); /* min picks smallest value of two */
+  padding-right: min(15rem, 12vw);
+  
 
 }
