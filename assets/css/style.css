@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-weight: bold;
 }
 
+.gallery-title {
+  text-align: center;
+  border-bottom: black 2px;
+}
+
 .section {
   padding: 7rem 0;
 }
