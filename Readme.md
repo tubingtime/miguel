@@ -1,7 +1,7 @@
 Miguels website
 TODO:
     
-    - [] optimize images (webp) working
+    - [] add paintings
 
 
 ------------------------
